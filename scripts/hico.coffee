@@ -1,6 +1,7 @@
 module.exports = (robot) ->
   robot.hear /ひかるなぐる/, (msg) ->
-    msg.send ```
+    msg.send '''
+```
 
           ∧ ＿∧
  ・;'.、(・ω (:;(⊂=⊂≡
@@ -8,4 +9,5 @@ module.exports = (robot) ->
          /    )      ズバババ
         ( /￣∪
 ```
+'''
 
